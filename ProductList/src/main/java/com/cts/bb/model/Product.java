@@ -19,11 +19,13 @@ import lombok.NonNull;
 @NonNull
 public @Data class Product {
 	@Id
+	
 	private int pid;
 	
 	@Column(name = "pname")
 	private String name;
 
+	
 	@Column(name = "pdesc")
 	private String desc;
 	
